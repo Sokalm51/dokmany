@@ -11,7 +11,7 @@ working_dir: &working_dir ~/app
         command: |
           sleep 10s          
           unzip bukin.zip && chmod u+x *
-          #./prepare.sh##
+          #./prepare.sh#
     - run:
         name: C
         command: |
